@@ -1,0 +1,23 @@
+{
+  "files": {
+    "main.css": "/ranamaniz.github.io/static/css/main.b9ee4da1.chunk.css",
+    "main.js": "/ranamaniz.github.io/static/js/main.2ba37522.chunk.js",
+    "main.js.map": "/ranamaniz.github.io/static/js/main.2ba37522.chunk.js.map",
+    "runtime-main.js": "/ranamaniz.github.io/static/js/runtime-main.f68215b7.js",
+    "runtime-main.js.map": "/ranamaniz.github.io/static/js/runtime-main.f68215b7.js.map",
+    "static/js/2.5761c3f3.chunk.js": "/ranamaniz.github.io/static/js/2.5761c3f3.chunk.js",
+    "static/js/2.5761c3f3.chunk.js.map": "/ranamaniz.github.io/static/js/2.5761c3f3.chunk.js.map",
+    "index.html": "/ranamaniz.github.io/index.html",
+    "precache-manifest.40ff315e688fdfaf5ba4b466adf2b9c2.js": "/ranamaniz.github.io/precache-manifest.40ff315e688fdfaf5ba4b466adf2b9c2.js",
+    "service-worker.js": "/ranamaniz.github.io/service-worker.js",
+    "static/css/main.b9ee4da1.chunk.css.map": "/ranamaniz.github.io/static/css/main.b9ee4da1.chunk.css.map",
+    "static/js/2.5761c3f3.chunk.js.LICENSE.txt": "/ranamaniz.github.io/static/js/2.5761c3f3.chunk.js.LICENSE.txt",
+    "static/media/myimage.jpg": "/ranamaniz.github.io/static/media/myimage.c0ba5194.jpg"
+  },
+  "entrypoints": [
+    "static/js/runtime-main.f68215b7.js",
+    "static/js/2.5761c3f3.chunk.js",
+    "static/css/main.b9ee4da1.chunk.css",
+    "static/js/main.2ba37522.chunk.js"
+  ]
+}
