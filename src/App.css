@@ -10,7 +10,7 @@ section.main-body{
 }
 
 section .center-body{
-  
+
   /*flex-direction: column; */
 }
 
@@ -30,7 +30,7 @@ section .content-body .profile-image img{
 .profile-about{
   color: white;
   text-align: center;
-  margin-top: 1em;
+  margin-top: 0.1em;
   /*font-size: 20px !important;*/
 }
 
@@ -42,9 +42,11 @@ section .content-body .profile-image img{
   transition: line-height .5s ease-in;
 }
 
-.profile-about h1:first-child:hover{
+section .content-body:hover h1:first-child{
   line-height: 1.5em;
 }
+
+
 .profile-about h2:nth-child(2){
   margin-top:0px;
   color: #A0A0A0;
@@ -52,4 +54,20 @@ section .content-body .profile-image img{
 
 .profile-about p{
   color: #A0A0A0;
+}
+
+section small.breathe{
+  position: absolute;
+  bottom: 1em;
+  right: 1em;
+  color: #A0A0A0;
+  visibility: hidden;
+  opacity: 0;
+  transition: opacity .5s ease-in,bottom 1s ease-in;
+}
+
+section .content-body:hover small.breathe{
+  opacity: 1;
+  visibility: visible;
+  bottom: 2em;
 }
