@@ -6,23 +6,23 @@ function Home(){
 	const mainBodyStyle = {'height': windowHeight};
 
 	return(
-		<div>
+		<main>
 			{console.log(windowHeight)}
 			<section className="main-body" style={mainBodyStyle}>
 				<div className="center-body">
 					<div className="content-body">
-						<div className="profile-image">
+						<article className="profile-image">
 							<img src={myImage} />
-						</div>
-						<div className="profile-about">
+						</article>
+						<article className="profile-about">
 							<h1>Hey, I am Manish.</h1>
-							<h2>A Front-End Developer and a Developer in Making</h2>
-						</div>
+							<h2>I design in HTML & CSS, code in Javascript & PHP.</h2>
+						</article>
 					</div>
 				</div>
 
 			</section>
-		</div>
+		</main>
 	);
 }
 

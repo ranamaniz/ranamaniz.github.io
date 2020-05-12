@@ -30,10 +30,26 @@ section .content-body .profile-image img{
 .profile-about{
   color: white;
   text-align: center;
-  margin-top: 10px;
+  margin-top: 2em;
   /*font-size: 20px !important;*/
 }
 
-.profile-about h2:last-child{
+.profile-about h1:first-child{
+  font-size: 4em;
+  margin-block-start:0px;
+  margin-bottom: 1px;
+  line-height: 0.5em;
+  transition: line-height .5s ease-in;
+}
+
+.profile-about h1:first-child:hover{
+  line-height: 1.5em;
+}
+.profile-about h2:nth-child(2){
+  margin-top:0px;
+  color: #A0A0A0;
+}
+
+.profile-about p{
   color: #A0A0A0;
 }
