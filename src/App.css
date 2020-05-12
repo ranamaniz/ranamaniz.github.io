@@ -56,17 +56,29 @@ section .content-body:hover h1:first-child{
   color: #A0A0A0;
 }
 
-section small.breathe{
+section div.breathe{
   position: absolute;
   bottom: 1em;
-  right: 1em;
+  right: 0;
+  left: 0;
   color: #A0A0A0;
   visibility: hidden;
   opacity: 0;
-  transition: opacity .5s ease-in,bottom 1s ease-in;
+  transition: opacity .5s ease-in,bottom 1s ease;
+  display: grid;
+  grid-template-column:1fr;
 }
 
-section .content-body:hover small.breathe{
+section div.breathe small{
+  font-weight: 300;
+  color: #737373;
+}
+section div.breathe small:first-child{
+  font-weight: 1em;
+  /*font-size: 1.2em;*/
+}
+
+section .content-body:hover div.breathe{
   opacity: 1;
   visibility: visible;
   bottom: 2em;

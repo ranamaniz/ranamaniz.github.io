@@ -16,7 +16,10 @@ function Home(){
 						<article className="profile-about">
 							<h1 >Hey, I am Manish.</h1>
 							<h2>I design in HTML & CSS, code in Javascript & PHP.</h2>
-							<small className="breathe">Wow some fresh air to breathe. Thanks to you we have got some space now. </small>
+							<div className="breathe">
+								<small>Wow some fresh air to breathe.</small>
+								<small>Thanks to you we have got some space now. </small>
+							</div>
 						</article>
 					</div>
 					
